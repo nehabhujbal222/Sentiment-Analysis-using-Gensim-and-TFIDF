@@ -10,8 +10,16 @@ the consumer end as well as hampers the process of decision
 making for various businesses to build customer-centric 
 products. Thus, to get authentic results in a fraction of seconds 
 and understand consumer needs better we have developed a 
-method of sentiment analysis on reviews which is described as follows:
+method of sentiment analysis on reviews.
 
+**Datasets used:**
+1. **Amazon product reviews-** 1000 reviews balanced dataset(2 classes, positive & negative) extracted from UCI Machine Learning repository. https://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences
+2. **IMDB movie reviews-** 50,000 reviews balanced dataset(2 classes, positive & negative) extracted from Stanford AI Lab. https://ai.stanford.edu/~amaas/data/sentiment/ The purpose of using this large benchmark dataset is to check the scalability of the model.
+
+**Architecture:**
+![image](https://user-images.githubusercontent.com/66311371/116960644-a65fec00-acbe-11eb-86cd-c43d597bc5b2.png)
+
+**A brief overview:**
 1. While selecting keywords from each review one of the main tasks is to 
 remove stop words without losing the prime sentiment of 
 the review. This has been achieved by selecting **specific POS 
@@ -26,6 +34,7 @@ classifiers, **Naïve Bayes** and **SVM** are used. We also trained a
 empirically discussed. 
 4. We have employed **Cross Validation** 
 and **GridSearch** to get the best model that fits the data. 
+
 
 This process of sentiment analysis will help gauge the bigger 
 picture rather than scrutinizing each review to drive deeper 
