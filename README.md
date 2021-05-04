@@ -1,5 +1,5 @@
 # A Novel Approach for Analyzing Sentiment of Customer Reviews using Gensim and TF-IDF 
-**-a research project by 
+**-Research project by 
 [Neha Bhujbal](https://github.com/nehabhujbal222) 
 and [Gaurav Bavdane](https://github.com/Gaurav6420)** 
 
