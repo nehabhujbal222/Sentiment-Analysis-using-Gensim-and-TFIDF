@@ -12,7 +12,7 @@ the consumer end as well as hampers the process of decision
 making for various businesses to build customer-centric 
 products. Thus, to get authentic results in a fraction of seconds 
 and understand consumer needs better we have developed a 
-method of sentiment analysis on reviews.
+method of sentiment analysis on reviews
 
 **Datasets used:**
 1. **Amazon product reviews-** 1000 reviews balanced dataset(2 classes, positive & negative) extracted from UCI Machine Learning repository. https://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences
